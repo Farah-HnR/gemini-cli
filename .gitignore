@@ -8,23 +8,11 @@
 # for subcommands.
 **/.gemini/
 !/.gemini/
-.gemini/*
+
+# gemini-cli settings
 !.gemini/config.yaml
 !.gemini/commands/
-
-# Note: .gemini-clipboard/ is NOT in gitignore so Gemini can access pasted images
-
-# Dependency directory
-node_modules
-bower_components
-
-# Editors
-.idea
-*.iml
-
-# OS metadata
-.DS_Store
-Thumbs.db
+.gemini/*
 
 # TypeScript build info files
 *.tsbuildinfo
